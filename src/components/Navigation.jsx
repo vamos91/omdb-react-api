@@ -52,7 +52,7 @@
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
-            <NavbarText>Simple Text</NavbarText>
+            <NavbarText>Text</NavbarText>
           </Collapse>
         </Navbar>
       </div>

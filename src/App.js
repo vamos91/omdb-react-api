@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import Home from './pages/Home'
 import Movies from './pages/Movies'
 import Movie from './pages/Movie'
+import Contact from './pages/contact/Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/movies' element={<Movies />} />
         <Route path='/movies/:id' element={<Movie />} />
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
     </BrowserRouter>
   );
